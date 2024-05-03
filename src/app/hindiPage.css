@@ -1,0 +1,912 @@
+/* devanagari */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2)
+    format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC,
+    U+A830-A839, U+A8E0-A8FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#hindi-page {
+  font-family: Poppins, sans-serif !important;
+}
+/* *, */
+#hindi-page .nav-link,
+#hindi-page .head,
+#hindi-page .body-main-site {
+  font-family: Poppins, sans-serif !important;
+}
+
+#hindi-page .nav-link,
+#hindi-page .total_number {
+  font-weight: 700;
+  font-display: swap !important;
+}
+
+#hindi-page .nav-item .nav-link {
+  font-size: 14px;
+}
+
+/* *, */
+#hindi-page .agenda-card,
+#hindi-page .head,
+#hindi-page .head1,
+#hindi-page .nav-link,
+#hindi-page .total_number,
+#hindi-page .body-main-site {
+  /* font-display: swap !important; */
+  font-display: poppins !important;
+}
+
+#hindi-page .navbar-brand {
+  width: 22% !important;
+}
+#hindi-page #agenda-caraousal > .splide__track > .splide__list > .splide__slide,
+#hindi-page .splide > .splide__track > .splide__list > .splide__slide {
+  transition: 0.3s;
+  z-index: 9999;
+  height: 80%;
+  transform: scale(0.9);
+}
+
+#hindi-page
+  #agenda-caraousal
+  > .splide__track
+  > .splide__list
+  > .splide__slide.is-active,
+#hindi-page
+  .splide
+  > .splide__track
+  > .splide__list
+  > .splide__slide.is-active {
+  transform: scale(1);
+  z-index: 99999;
+  height: 100%;
+}
+
+#hindi-page .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#hindi-page .navbar-brand img {
+  width: 60%;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+
+#hindi-page #agenda,
+#hindi-page .media-card > .card-title > a > img,
+#hindi-page .videoontext p {
+  width: 100% !important;
+}
+
+#hindi-page .navbar {
+  background-color: #000 !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+}
+
+@font-face {
+  font-family: MYRIADPRO;
+  src: url(/fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+  font-family: Four-c-head;
+  src: url(/fonts/FOUR\ C\ MAYAHEAD.TTF);
+}
+
+@font-face {
+  font-family: MYRIADPRO-bold;
+  src: url(/fonts/MYRIADPRO-BOLDIT.OTF);
+}
+
+#hindi-page .nav-right-border {
+  border-right: 0.5px solid #fff;
+}
+
+#hindi-page .nav-link {
+  padding: 0 8px;
+  color: #ff8313;
+}
+
+#hindi-page .nav-link :hover,
+#hindi-page .nav-link:focus,
+#hindi-page .nav-link:hover {
+  color: #ff8313 !important;
+}
+
+#hindi-page .videos .t,
+#hindi-page .videos .t2,
+#hindi-page .videos .t3 {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin: -20px 0 0 -20px;
+  color: red;
+  font-size: 35px;
+}
+
+#hindi-page .navbar-toggler {
+  background-color: rgb(243 115 5);
+}
+
+#hindi-page .dropdown-menu[data-bs-popper] {
+  left: auto !important;
+  right: 0;
+}
+
+#hindi-page .hero_section_above {
+  position: absolute;
+  bottom: auto !important;
+  top: 16% !important;
+  right: 3%;
+  width: 362px;
+  background: url("/img/hero_background.png") center/100% no-repeat;
+}
+
+#hindi-page .agenda-card,
+#hindi-page .splide {
+  background-color: #fff !important;
+}
+
+#hindi-page .hero_section_above img {
+  max-width: 100%;
+}
+
+#hindi-page .t,
+#hindi-page .t2 {
+  fill: white;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#hindi-page .total_number {
+  font-size: 25px;
+  font-family: Four-c-head !important;
+  padding-right: 14px;
+  padding-left: 14px;
+  margin-bottom: 0;
+  margin-top: -3px;
+}
+
+#hindi-page .total_number_d {
+  width: 380px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#hindi-page .total_number_line {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: -3px;
+  color: #e1e1e1;
+}
+
+#hindi-page .head,
+#hindi-page .head1,
+#hindi-page .total_number_bottom {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#hindi-page .total_number_bottom {
+  margin-top: 10px;
+  color: #fff;
+  margin-bottom: 0.5px;
+}
+
+#hindi-page .head,
+#hindi-page .head1 {
+  /* font-family: MYRIADPRO-bold; */
+  font-display: poppins !important;
+  color: rgb(243 115 5);
+}
+
+#hindi-page .sanatan_first,
+#hindi-page .sanatan_sec {
+  text-align: center;
+  color: #ff8313;
+  font-size: 60px;
+  font-weight: 650;
+}
+
+#hindi-page .videos {
+  position: relative;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hindi-page .videoontext,
+#hindi-page .videos .t,
+#hindi-page .videos .t2,
+#hindi-page .videos .t3 {
+  position: absolute;
+}
+
+#hindi-page .videos .t {
+  top: 40%;
+  left: 50%;
+  opacity: 0.5;
+}
+
+#hindi-page .videos .t2 {
+  top: 46%;
+  left: 48%;
+  z-index: 99999;
+}
+
+#hindi-page .videos .t3 {
+  top: 30%;
+  left: 50%;
+  opacity: 0.5;
+}
+
+#hindi-page .videoontext {
+  bottom: 0;
+}
+
+#hindi-page .videoontext p {
+  background-color: #ff8313;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 10px 10px 0 0;
+  border-bottom: transparent !important;
+}
+
+#hindi-page .sanatan_first {
+  margin-top: 16%;
+}
+
+#hindi-page .sanatan_first span,
+#hindi-page .sanatan_sec span {
+  color: #fff;
+}
+
+#hindi-page .agenda-card {
+  position: relative;
+  border-radius: 0;
+  font-family: Khand, sans-serif;
+  font-size: 1.2rem !important;
+  overflow: hidden;
+  margin-left: -8%;
+  margin-right: -8%;
+}
+
+#hindi-page .contactus,
+#hindi-page .footer_text {
+  font-family: Inter;
+  /* font-display: swap !important; */
+  font-family: poppins, sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: -0.176px;
+  color: #fff;
+  text-align: center;
+}
+
+#hindi-page .agenda-card img {
+  border-radius: 20px !important;
+  border: 1px solid #fff !important;
+  max-width: 100%;
+  width: 100%;
+}
+
+#hindi-page #agenda-caraousal > .splide__track {
+  width: 100%;
+  margin: auto;
+}
+
+#hindi-page .carousel-item {
+  background-color: #000;
+}
+
+#hindi-page .carousel-control-next,
+#hindi-page .carousel-control-prev {
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15% !important;
+  height: 50px !important;
+}
+
+#hindi-page #agenda-caraousal > .splide__track > .splide__list {
+  margin-left: -30px !important;
+}
+
+#hindi-page .splide > .splide__track > .splide__list {
+  margin-left: -70px !important;
+}
+
+#hindi-page .splide:not(.is-overflow) .splide__pagination {
+  display: block !important;
+  text-align: center !important;
+}
+
+#hindi-page .splide__pagination {
+  bottom: -2.5em !important;
+  left: 0;
+  padding: 0 1em;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+#hindi-page .splide__pagination__page.is-active {
+  background: #fff;
+  transform: scale(1.4);
+  z-index: 1;
+  border: 2px solid rgb(243 115 5);
+}
+
+#hindi-page .splide__pagination__page {
+  background: rgb(243 115 5);
+  border: 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 3px;
+  opacity: 1;
+  padding: 0;
+  position: relative;
+  transition: transform 0.2s linear;
+  width: 10px;
+}
+
+#hindi-page .contactus {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+#hindi-page .contactus span {
+  padding: 1px;
+}
+
+#hindi-page .footer_text {
+  font-weight: 500;
+}
+
+#hindi-page .total_number_hr_line {
+  width: 300px;
+  text-align: center;
+  color: grey;
+  background-color: grey;
+}
+
+#hindi-page .mhtm_img {
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+#hindi-page .owl-next,
+#hindi-page .owl-prev {
+  width: 30px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  display: block !important;
+  border: 0 solid #000;
+}
+
+#hindi-page .carousel-control-next,
+#hindi-page .carousel-control-prev {
+  opacity: 1 !important;
+  transition: none;
+}
+
+#hindi-page .owl-prev {
+  margin-left: 30px !important;
+}
+
+#hindi-page .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: 0 0 !important;
+  color: #fff;
+  text-decoration: none;
+}
+
+#hindi-page .owl-next {
+  right: 25px;
+}
+
+#hindi-page .ssss {
+  background: url("/img/Website_Bakground_1440X780#hindi-page .webp");
+}
+
+#hindi-page .sssss {
+  background: url("/img/Website_Bakground_1440X780-With-Low-Opacity.webp");
+}
+
+#hindi-page #mob::placeholder {
+  text-align: center;
+  color: rgb(243 115 5);
+  opacity: 0.7;
+}
+
+#hindi-page .testi {
+  min-height: 550px;
+  height: 60vh;
+}
+
+#hindi-page .svg_mute {
+  top: 15%;
+  left: 4%;
+}
+
+#hindi-page .svg_unmute {
+  top: 15%;
+  left: 3.5%;
+}
+#hindi-page .sankalp {
+  background: url("/img/sbd.webp");
+  height: 250px;
+}
+#hindi-page .a {
+  position: absolute;
+  top: 32%;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  #hindi-page .a {
+    position: absolute;
+    top: 25% !important;
+    width: 100%;
+  }
+  #hindi-page .sankalp {
+    background: url("/img/sb.webp");
+    height: 250px;
+  }
+  #hindi-page .svg_mute {
+    top: 5% !important;
+    left: 4%;
+  }
+
+  #hindi-page .svg_unmute {
+    top: 5% !important;
+    left: 2% !important;
+  }
+
+  #hindi-page .owl-next,
+  #hindi-page .owl-prev {
+    width: 15px;
+    height: 100px;
+    top: 40%;
+    display: block !important;
+    border: 0 solid #000;
+  }
+
+  #hindi-page .owl-next,
+  #hindi-page .owl-prev,
+  #hindi-page .sound {
+    position: absolute;
+  }
+
+  #hindi-page #agenda-caraousal > .splide__track > .splide__list,
+  #hindi-page .splide > .splide__track > .splide__list {
+    margin-left: 0 !important;
+  }
+
+  #hindi-page .hero_section_above img {
+    max-width: 80% !important;
+  }
+
+  #hindi-page .ssss {
+    background: url("/img/Website_Bakground_1080X1080.webp");
+  }
+
+  #hindi-page .sssss {
+    background: url("/img/Website_Bakground_1080X1080-With-Low-Opacity.webp");
+  }
+
+  #hindi-page .owl-prev {
+    margin-left: 15px;
+  }
+
+  #hindi-page .owl-next {
+    right: 15px;
+  }
+
+  #hindi-page .navbar,
+  #hindi-page .navbar-brand img {
+    width: 100%;
+    padding-top: 3px;
+  }
+
+  #hindi-page .navbar-brand {
+    width: 28% !important;
+  }
+  #hindi-page .sound {
+    top: 10%;
+    left: 4%;
+  }
+
+  #hindi-page .hero_section_above {
+    position: absolute;
+    /* bottom: 3% !important; */
+    bottom: 0% !important;
+    top: auto !important;
+    width: 100%;
+    right: auto !important;
+    background: 0 0 !important;
+  }
+
+  #hindi-page .contactus {
+    color: #913300;
+    font-family: Inter;
+    font-display: swap !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #hindi-page .head,
+  #hindi-page .head1 {
+    font-family: Four-c-head !important;
+    font-display: swap !important;
+    font-weight: 400;
+    color: rgb(243 115 5);
+    text-align: center;
+  }
+
+  #hindi-page .navbar {
+    background-color: #fff !important;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    z-index: 99999;
+  }
+
+  #hindi-page .splide > .splide__track > .splide__list > .splide__slide {
+    transition: 0.3s;
+    z-index: 9999;
+    height: 80%;
+    transform: scale(1);
+  }
+
+  #hindi-page .agenda-card {
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #hindi-page
+    #agenda-caraousal
+    > .splide__track
+    > .splide__list
+    > .splide__slide {
+    transition: 0.3s;
+    z-index: 9999;
+    transform: scale(1);
+  }
+
+  #hindi-page .mhtm_img {
+    border-radius: 20px;
+    border: 1px solid #fff;
+  }
+
+  #hindi-page .head {
+    font-size: 44px;
+  }
+
+  #hindi-page .head1 {
+    font-size: 38px;
+  }
+
+  #hindi-page .total_number_hr_line {
+    width: 150px !important;
+    text-align: center;
+    color: #e9e9e9;
+    background-color: #e9e9e9;
+  }
+
+  #hindi-page .navbar-collapse {
+    position: absolute;
+    top: 80%;
+    right: 1%;
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+    flex-basis: 50%;
+    flex-grow: 1;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  #hindi-page .nav-button {
+    background-color: #ff8313;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    letter-spacing: 0.1rem;
+  }
+
+  #hindi-page .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+    float: right;
+  }
+
+  #hindi-page .nav-item {
+    padding: 10px !important;
+  }
+
+  #hindi-page .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  #hindi-page .sanatan {
+    position: relative;
+  }
+
+  #hindi-page .sanatan img {
+    width: 88%;
+  }
+
+  #hindi-page .total_number_d {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #hindi-page .testi {
+    min-height: 300px;
+    height: 50vw !important;
+  }
+
+  #hindi-page #agenda {
+    width: 98% !important;
+  }
+}
+
+#hindi-page #video-area {
+  width: 100%;
+  min-height: 600px;
+  background-color: #000;
+}
+
+#hindi-page .gm-card {
+  border-radius: 30px;
+  background: #000;
+  box-shadow: -28.033px 28.033px 28.033px 0px rgba(255, 255, 255, 0.1) inset,
+    28.033px -28.033px 28.033px 0px rgba(165, 165, 165, 0.1) inset,
+    0px 2px 30px 0px rgba(0, 0, 0, 0.44);
+  backdrop-filter: blur(28.03333282470703px);
+}
+
+#hindi-page .gm-card .card-title {
+  border-radius: 30px !important;
+  border: 1px solid #393939;
+  box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.25);
+}
+
+#hindi-page .gm-card .card-title img {
+  border-radius: 30px !important;
+  /* padding: 10px; */
+}
+
+#hindi-page .gm_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 60px;
+  background: rgba(0, 0, 0, 0.34);
+  box-shadow: -28.033px 28.033px 28.033px 0px rgba(255, 255, 255, 0.1) inset,
+    28.033px -28.033px 28.033px 0px rgba(165, 165, 165, 0.1) inset;
+  backdrop-filter: blur(28.03333282470703px);
+  margin: 10px;
+  margin-bottom: 5px !important;
+  padding: 10px 15px;
+}
+
+#hindi-page .gm_buttons p {
+  margin-bottom: 0px;
+}
+
+/*********************** quiz section *****************/
+#hindi-page #quiz_section {
+  position: relative;
+}
+#hindi-page #quiz-banner1 {
+  /* border: solid black; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35.5%;
+  cursor: pointer;
+}
+#hindi-page #quiz-banner2 {
+  /* border: solid; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 34.8%;
+  cursor: pointer;
+}
+
+#hindi-page .obs {
+  opacity: 0;
+}
+
+#hindi-page .show {
+  opacity: 1;
+  transition-delay: 10ms;
+}
+
+/* #promise img{
+  border: 1px solid rgb(168, 166, 166) !important;
+} */
+
+#hindi-page .promise-card {
+  border-radius: 30px;
+  background: #000;
+}
+
+#hindi-page .promise-card .card-title {
+  border-radius: 30px !important;
+  border: 1px solid #393939;
+}
+
+#hindi-page .promise-card .card-title img {
+  border-radius: 30px 30px 10px 10px !important;
+  /* padding: 10px; */
+}
+
+#hindi-page .promise-card_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 60px;
+  background: rgba(0, 0, 0, 0.34);
+  box-shadow: -28.033px 28.033px 28.033px 0px rgba(255, 255, 255, 0.1) inset,
+    28.033px -28.033px 28.033px 0px rgba(165, 165, 165, 0.1) inset;
+  backdrop-filter: blur(28.03333282470703px);
+  margin: 10px;
+  margin-bottom: 5px !important;
+  padding: 10px 15px;
+  border-color: transparent;
+  font-size: 10px !important;
+}
+
+#hindi-page .promise-card_buttons p {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  #hindi-page .promise-card .card-title img {
+    border-radius: 10px 10px 0px 0px !important;
+    /* padding: 10px; */
+  }
+  #hindi-page .promise-card {
+    border-radius: 13px 13px 13px 13px !important;
+    background: #000;
+  }
+  #hindi-page .promise-card .card-title {
+    border-radius: 13px 13px 0px 0px !important;
+    border: 1px solid #393939;
+  }
+
+  #hindi-page .promise-card_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 13px 13px;
+    background: rgba(0, 0, 0, 0.34);
+    box-shadow: -28.033px 28.033px 28.033px 0px rgba(255, 255, 255, 0.1) inset,
+      28.033px -28.033px 28.033px 0px rgba(165, 165, 165, 0.1) inset;
+    backdrop-filter: blur(28.03333282470703px);
+    margin: 0px;
+    margin-bottom: 1px !important;
+    padding: 5px 5px !important;
+    border-color: transparent;
+  }
+}
+
+#hindi-page #bjp-live.bjplivebannerimg {
+  background: rgb(0, 0, 0);
+  padding: 40px 0px 40px;
+}
+
+#hindi-page #bjp-live.bjplivebannerimg h4 {
+  color: rgb(255, 255, 255);
+  margin: 10px 0px 20px;
+}
+#hindi-page #bjp-live.bjplivebannerimg h4 {
+  color: rgb(255, 255, 255);
+  margin: 10px 0px 20px;
+}
+#hindi-page #bjp-live h4 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 30px;
+}
+#hindi-page #bjp-live h4 {
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 700;
+  margin: 10px 0px 20px;
+}
+
+/* manifesto redirect */
+#hindi-page .manifesto_redirect {
+  width: 380px;
+  height: 100px;
+  background-color: transparent;
+  /* border:5px solid red; */
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+}
+
+@media (max-width: 768px) {
+  #hindi-page .manifesto_redirect {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    /* border: 5px solid red; */
+    position: absolute;
+    bottom: auto;
+    /* left: 22%; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 45%;
+    z-index: 9999;
+  }
+}
+
+#hindi-page #why_modi .arrow {
+  content: "";
+}

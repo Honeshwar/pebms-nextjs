@@ -1,0 +1,33 @@
+.video_download_icon {
+  position: absolute;
+  bottom: 45px;
+  right: 15px;
+}
+
+.video_download_icon svg {
+  cursor: pointer;
+
+  background-color: rgb(255, 253, 253);
+  border-radius: 100%;
+  box-shadow: 0 0 3px 1px rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+
+  fill: #f37305;
+}
+
+.video_download_icon svg:hover {
+  fill: #e16c06;
+  box-shadow: 0 0 3px 1px rgb(185, 183, 183);
+}
+@media (max-width: 768px) {
+  .video_download_icon {
+    bottom: 45px;
+    right: 15px;
+  }
+
+  .video_download_icon svg {
+    width: 25px;
+    height: 25px;
+  }
+}
